@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiGi World Universe - Diwali Special Offers & Rate Card</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        diwali: {
+                            gold: '#F59E0B',
+                            lightgold: '#FCD34D',
+                            darkred: '#450A0A',
+                            deepred: '#180202',
+                            orange: '#EA580C',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; }
+        .glass-card {
+            background: rgba(24, 2, 2, 0.75);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(245, 158, 11, 0.3);
+        }
+        .glow-text {
+            text-shadow: 0 0 20px rgba(245, 158, 11, 0.6);
+        }
+        .glow-box {
+            box-shadow: 0 0 30px rgba(245, 158, 11, 0.25);
+        }
+    </style>
+</head>
+<body class="bg-diwali-deepred text-white min-h-screen relative overflow-x-hidden">
+
+    <!-- Background Video Wrapper -->
+    <div class="fixed inset-0 w-full h-full overflow-hidden z-0 pointer-events-none">
+        <video autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover opacity-40">
+            <source src="Untitled - 10 November 2026 at 07.30.35.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <!-- Dark Festive Gradient Overlay -->
+        <div class="absolute inset-0 bg-gradient-to-b from-diwali-darkred/80 via-diwali-deepred/90 to-black/95"></div>
+    </div>
+
+    <!-- Main Content Container -->
+    <div class="relative z-10 flex flex-col min-h-screen">
+
+        <!-- Top Urgency Banner -->
+        <div class="bg-gradient-to-r from-amber-600 via-orange-600 to-amber-600 text-black font-bold py-2 px-4 text-center text-xs sm:text-sm tracking-wide shadow-lg">
+            🪔 DIWALI FESTIVE SPECIAL: Exclusive Discounts Valid Only for the <span class="underline uppercase">First 10 Clients</span>! Claim Yours Now! 🪔
+        </div>
+
+        <!-- Header / Navigation -->
+        <header class="border-b border-amber-500/20 bg-diwali-deepred/60 backdrop-blur-md sticky top-0 z-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+                <!-- Logo & Brand Name -->
+                <div class="flex items-center space-x-3">
+                    <img src="gemini-clean-2026-10-11-233517.jpg" alt="DiGi World Universe Logo" class="h-12 w-12 rounded-xl object-cover border border-amber-500/50 shadow-md">
+                    <div>
+                        <span class="text-xl sm:text-2xl font-extrabold tracking-wider bg-gradient-to-r from-amber-200 via-amber-400 to-orange-400 bg-clip-text text-transparent">
+                            DiGi World Universe
+                        </span>
+                        <p class="text-[10px] sm:text-xs text-amber-300/80 tracking-widest uppercase">Work With Flow</p>
+                    </div>
+                </div>
+
+                <!-- Contact / CTA -->
+                <div class="hidden sm:flex items-center space-x-4">
+                    <a href="https://wa.me/919321404283?text=Hi%20DiGi%20World%20Universe,%20I%20want%20to%20grab%20the%20Diwali%20Special%20Offer!" target="_blank" class="bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold px-5 py-2.5 rounded-xl shadow-lg hover:brightness-110 transition transform hover:scale-105 flex items-center space-x-2 text-sm">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                        <span>Chat on WhatsApp</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="py-16 sm:py-24 px-4 text-center relative">
+            <div class="max-w-4xl mx-auto space-y-6">
+                <div class="inline-flex items-center space-x-2 bg-amber-500/10 border border-amber-500/30 px-4 py-1.5 rounded-full text-amber-300 text-xs sm:text-sm font-medium">
+                    <i class="fa-solid fa-fire text-orange-400"></i>
+                    <span>Celebrate Prosperity With Massive Growth Discounts</span>
+                </div>
+                <h1 class="text-3xl sm:text-6xl font-extrabold tracking-tight leading-tight">
+                    Ignite Your Business Growth This <span class="bg-gradient-to-r from-amber-300 via-orange-400 to-amber-500 bg-clip-text text-transparent glow-text">Diwali!</span>
+                </h1>
+                <p class="text-gray-300 text-base sm:text-xl max-w-2xl mx-auto font-light">
+                    Supercharge your brand with expert digital marketing, high-converting Meta Ads, and AI workflow automation at unbeatable festive rates.
+                </p>
+                <div class="pt-4 flex flex-col sm:flex-row justify-center items-center gap-4">
+                    <a href="#rates" class="w-full sm:w-auto bg-gradient-to-r from-amber-500 to-orange-500 text-black font-bold px-8 py-4 rounded-xl shadow-xl hover:brightness-110 transition transform hover:scale-105 text-base flex items-center justify-center space-x-2">
+                        <i class="fa-solid fa-gift"></i>
+                        <span>View Diwali Rate Card</span>
+                    </a>
+                    <a href="https://wa.me/919321404283?text=Hi%20DiGi%20World%20Universe,%20I%20want%20to%20claim%20the%20Diwali%20Offer!" target="_blank" class="w-full sm:w-auto glass-card text-amber-300 font-semibold px-8 py-4 rounded-xl hover:bg-amber-500/10 transition flex items-center justify-center space-x-2 text-base border border-amber-500/40">
+                        <i class="fa-brands fa-whatsapp text-xl text-green-400"></i>
+                        <span>Instant WhatsApp Booking</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rate Card Section -->
+        <section id="rates" class="py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full flex-grow">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl sm:text-4xl font-extrabold tracking-tight text-amber-300 mb-3">
+                    🎉 Revised Rate Card – Diwali Special Offer 🪔
+                </h2>
+                <p class="text-gray-300 text-sm sm:text-base">Exclusive festive pricing designed to scale your revenue. Act fast—only for the first 10 clients!</p>
+            </div>
+
+            <!-- Pricing Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- 1. Weekly Packages -->
+                <div class="glass-card rounded-2xl p-6 sm:p-8 flex flex-col justify-between glow-box relative overflow-hidden group hover:border-amber-400 transition">
+                    <div class="absolute top-0 right-0 bg-orange-600 text-black text-[10px] font-bold px-3 py-1 rounded-bl-xl uppercase tracking-wider">Instant Saving</div>
+                    <div>
+                        <div class="text-amber-400 text-sm font-semibold uppercase tracking-wider mb-2">Short-Term Growth</div>
+                        <h3 class="text-xl sm:text-2xl font-bold mb-4">Weekly Packages</h3>
+                        <div class="my-6">
+                            <span class="text-3xl sm:text-4xl font-extrabold text-amber-300">Flat ₹1,000 OFF</span>
+                            <p class="text-gray-400 text-xs mt-1">Applicable on all 1-week packages</p>
+                        </div>
+                        <ul class="space-y-3 text-sm text-gray-300 mb-8">
+                            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-amber-400"></i><span>Rapid Campaign Setup</span></li>
+                            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-amber-400"></i><span>Immediate Lead Boost</span></li>
+                            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-amber-400"></i><span>Dedicated Expert Support</span></li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/919321404283?text=Hi%20DiGi%20World%20Universe,%20I%20want%20to%20claim%20the%20Weekly%20Package%20Diwali%20Offer!" target="_blank" class="w-full bg-amber-500 hover:bg-amber-400 text-black font-bold py-3 rounded-xl text-center transition shadow-md">
+                        Claim Offer Now
+                    </a>
+                </div>
+
+                <!-- 2. Monthly Packages -->
+                <div class="glass-card rounded-2xl p-6 sm:p-8 flex flex-col justify-between glow-box relative overflow-hidden group hover:border-amber-400 transition">
+                    <div class="absolute top-0 right-0 bg-orange-600 text-black text-[10px] font-bold px-3 py-1 rounded-bl-xl uppercase tracking-wider">Best Value</div>
+                    <div>
+                        <div class="text-amber-400 text-sm font-semibold uppercase tracking-wider mb-2">Consistent Scaling</div>
+                        <h3 class="text-xl sm:text-2xl font-bold mb-4">Monthly Packages</h3>
+                        <div class="my-6">
+                            <span class="text-3xl sm:text-4xl font-extrabold text-amber-300">Flat ₹2,000 OFF</span>
+                            <p class="text-gray-400 text-xs mt-1">Applicable on all monthly packages</p>
+                        </div>
+                        <ul class="space-y-3 text-sm text-gray-300 mb-8">
+                            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-amber-400"></i><span>Full Month Ad Management</span></li>
+                            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-amber-400"></i><span>CRM & Pipeline Setup</span></li>
+                            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-amber-400"></i><span>Weekly Performance Audits</span></li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/919321404283?text=Hi%20DiGi%20World%20Universe,%20I%20want%20to%20claim%20the%20Monthly%20Package%20Diwali%20Offer!" target="_blank" class="w-full bg-amber-500 hover:bg-amber-400 text-black font-bold py-3 rounded-xl text-center transition shadow-md">
+                        Claim Offer Now
+                    </a>
+                </div>
+
+                <!-- 3. AI Package -->
+                <div class="glass-card rounded-2xl p-6 sm:p-8 flex flex-col justify-between glow-box relative overflow-hidden group hover:border-amber-400 transition">
+                    <div class="absolute top-0 right-0 bg-amber-500 text-black text-[10px] font-bold px-3 py-1 rounded-bl-xl uppercase tracking-wider">Save ₹25,000</div>
+                    <div>
+                        <div class="text-amber-400 text-sm font-semibold uppercase tracking-wider mb-2">Automation & Intelligence</div>
+                        <h3 class="text-xl sm:text-2xl font-bold mb-4">AI Package</h3>
+                        <div class="my-6">
+                            <div class="text-gray-400 text-sm line-through">₹75,000</div>
+                            <span class="text-3xl sm:text-4xl font-extrabold text-amber-300">₹50,000</span>
+                            <p class="text-amber-400 text-xs mt-1 font-medium">Diwali Offer Price</p>
+                        </div>
+                        <ul class="space-y-3 text-sm text-gray-300 mb-8">
+                            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-amber-400"></i><span>n8n Workflow Automation</span></li>
+                            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-amber-400"></i><span>WhatsApp Cloud API Integration</span></li>
+                            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-amber-400"></i><span>Automated Lead Capture Funnels</span></li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/919321404283?text=Hi%20DiGi%20World%20Universe,%20I%20want%20to%20claim%20the%20AI%20Package%20Diwali%20Offer%20at%20Rs.50,000!" target="_blank" class="w-full bg-amber-500 hover:bg-amber-400 text-black font-bold py-3 rounded-xl text-center transition shadow-md">
+                        Claim Offer Now
+                    </a>
+                </div>
+
+                <!-- 4. Meta Ads Package -->
+                <div class="glass-card rounded-2xl p-6 sm:p-8 flex flex-col justify-between glow-box relative overflow-hidden group hover:border-amber-400 transition">
+                    <div class="absolute top-0 right-0 bg-amber-500 text-black text-[10px] font-bold px-3 py-1 rounded-bl-xl uppercase tracking-wider">Save ₹5,000</div>
+                    <div>
+                        <div class="text-amber-400 text-sm font-semibold uppercase tracking-wider mb-2">Targeted Growth</div>
+                        <h3 class="text-xl sm:text-2xl font-bold mb-4">Meta Ads Package</h3>
+                        <div class="my-6">
+                            <div class="text-gray-400 text-sm line-through">₹45,000</div>
+                            <span class="text-3xl sm:text-4xl font-extrabold text-amber-300">₹40,000</span>
+                            <p class="text-amber-400 text-xs mt-1 font-medium">Diwali Offer Price</p>
+                        </div>
+                        <ul class="space-y-3 text-sm text-gray-300 mb-8">
+                            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-amber-400"></i><span>High-Converting Ad Creatives</span></li>
+                            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-amber-400"></i><span>Precision Audience Targeting</span></li>
+                            <li class="flex items-center space-x-2"><i class="fa-solid fa-check text-amber-400"></i><span>ROAS & Conversion Tracking</span></li>
+                        </ul>
+                    </div>
+                    <a href="https://wa.me/919321404283?text=Hi%20DiGi%20World%20Universe,%20I%20want%20to%20claim%20the%20Meta%20Ads%20Package%20Diwali%20Offer%20at%20Rs.40,000!" target="_blank" class="w-full bg-amber-500 hover:bg-amber-400 text-black font-bold py-3 rounded-xl text-center transition shadow-md">
+                        Claim Offer Now
+                    </a>
+                </div>
+
+                <!-- 5. Highest-Ticket Package -->
+                <div class="glass-card rounded-2xl p-6 sm:p-8 flex flex-col justify-between glow-box relative overflow-hidden group border-2 border-amber-400 transition lg:col-span-2">
+                    <div class="absolute top-0 right-0 bg-gradient-to-r from-amber-500 to-orange-500 text-black text-xs font-extrabold px-4 py-1.5 rounded-bl-2xl uppercase tracking-wider">👑 Ultimate Enterprise Deal (Save ₹30,000)</div>
+                    <div>
+                        <div class="text-amber-400 text-sm font-semibold uppercase tracking-wider mb-2">Full-Scale Domination</div>
+                        <h3 class="text-2xl sm:text-3xl font-bold mb-4">Highest-Ticket Package</h3>
+                        <div class="my-6 flex items-baseline space-x-4">
+                            <div>
+                                <div class="text-gray-400 text-base line-through">₹1,80,000</div>
+                                <span class="text-4xl sm:text-5xl font-extrabold text-amber-300">₹1,50,000</span>
+                            </div>
+                            <p class="text-amber-400 text-sm font-medium">Diwali Special Price</p>
+                        </div>
+                        <p class="text-gray-300 text-sm mb-6">Complete 360-degree digital transformation, custom sales funnels, high-ticket lead generation pipeline, dedicated team execution, and VIP priority support.</p>
+                    </div>
+                    <a href="https://wa.me/919321404283?text=Hi%20DiGi%20World%20Universe,%20I%20want%20to%20claim%20the%20Highest-Ticket%20Package%20Diwali%20Offer%20at%20Rs.1,50,000!" target="_blank" class="w-full sm:w-auto bg-gradient-to-r from-amber-500 to-orange-500 hover:brightness-110 text-black font-extrabold py-4 px-8 rounded-xl text-center transition shadow-lg text-base">
+                        Claim Ultimate Enterprise Package Now
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="border-t border-amber-500/20 bg-diwali-deepred/80 py-8 px-4 text-center text-sm text-gray-400 mt-12">
+            <div class="max-w-7xl mx-auto space-y-3">
+                <p class="font-medium text-amber-300">🪔 Celebrate Diwali with Special Savings! Grab these exclusive Diwali offers before they end.</p>
+                <p>&copy; 2026 DiGi World Universe (Work With Flow). All rights reserved.</p>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
